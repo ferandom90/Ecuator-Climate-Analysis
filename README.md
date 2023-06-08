@@ -42,5 +42,5 @@ the temperature histogram as "frequency.png" using plt.savefig().
 
 ![frequency](frequency.png)
 
-![prcp]((prcp.png)
+![prcp](prcp.png)
 
