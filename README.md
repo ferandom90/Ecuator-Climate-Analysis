@@ -41,5 +41,6 @@ Note: The code includes saving the precipitation plot as "prcp.png" and
 the temperature histogram as "frequency.png" using plt.savefig().
 
 ![frequency](frequency.png)
+
 ![prcp]((prcp.png)
 
