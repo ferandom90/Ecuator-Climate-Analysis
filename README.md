@@ -1,4 +1,4 @@
-sqlalchemy-challenge
+# sqlalchemy-challenge
 
 This Visual code performs an analysis of weather data from a SQLite 
 database using SQLAlchemy and pandas. Here is a breakdown of the code:
@@ -14,9 +14,9 @@ The classes measurement and station are assigned to references for easier
 querying later.
 A session is created to establish a link between Python and the database.
 The code performs exploratory precipitation analysis:
-A.	The most recent date in the dataset is obtained using a query with 
+*  A.	The most recent date in the dataset is obtained using a query with 
 func.max() and scalar().
-B.	The date one year before the most recent date is calculated using 
+  B.	The date one year before the most recent date is calculated using 
 the datetime module and timedelta.
 C.	A query retrieves the date and precipitation scores for the last 
 12 months of data using filter().
@@ -39,4 +39,7 @@ active station are queried and plotted as a histogram.
 Finally, the code closes the session.
 Note: The code includes saving the precipitation plot as "prcp.png" and 
 the temperature histogram as "frequency.png" using plt.savefig().
+
+![frequency](frequency.png)
+![prcp]((prcp.png)
 
